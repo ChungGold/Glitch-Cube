@@ -11,8 +11,8 @@ body {
 }
 
 video {
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -54,7 +54,7 @@ video {
     overflow: hidden;
     border-style: solid;
     border-color:black;
-    background: white;
+    background: black;;
     opacity: 50%;
 }
 
@@ -93,27 +93,27 @@ video {
 @keyframes face1 {
     0% {
         transform: scale(.25)  translateY(50px) translateX(50px);
-        border-color: white;
+        border-color: black;;
         background: transparent;
     }
     20% {
         transform: scale(.35) rotate3d(1, 1, 1, 360deg);
-        border-color: white;
+        border-color: black;;
         background: transparent;
     }
     40% {
         transform: scale(.45) translateY(400px) translateX(400px);
-        border-color: white;
+        border-color: black;;
         background: transparent;
     }
     60% {
         transform: scale(.55) rotate3d(1, 1, 1, 360deg) translateY(400px) translateX(400px); 
-        border-color: white;
+        border-color: black;;
         background: transparent;
     }
     80% {
         transform: rotate3d(1, 1, 1, 760deg) translateY(400px) translateX(400px);
-        border-color: white;
+        border-color: black;;
         background: transparent;
     }
 }
@@ -121,27 +121,27 @@ video {
 @keyframes face2 {
     0% {
         transform: scale(.25) translateY(-50px) translateX(-50px);
-        border-color: white;
+        border-color: black;;
         background: transparent;
     }
     20% {
         transform: scale(.35) rotate3d(1, 1, 1, 360deg);
-        border-color: white;
+        border-color: black;;
         background: transparent;
     }
     40% {
         transform: scale(.45)  translateY(-400px) translateX(-400px);
-        border-color: white;
+        border-color: black;;
         background: transparent;
     }
     60% {
         transform: scale(.55) rotate3d(1, 1, 1, 360deg) translateY(-400px) translateX(-400px); 
-        border-color: white;
+        border-color: black;;
         background: transparent;
     }
     80% {
         transform: rotate3d(1, 1, 1, 760deg) translateY(-400px) translateX(-400px);
-        border-color: white;
+        border-color: black;;
         background: transparent;
     }
 
@@ -150,27 +150,27 @@ video {
 @keyframes face3 {
     0% {
         transform: scale(.25) translateY(100px) translateX(-100px);
-        border-color: white;
+        border-color: black;;
         background: transparent;
     }
     20% {
         transform: scale(.35) rotate3d(1, 1, 1, 360deg);
-        border-color: white;
+        border-color: black;;
         background: transparent;
     }
     40% {
         transform: scale(.45) translateY(400px) translateX(-400px);
-        border-color: white;
+        border-color: black;;
         background: transparent;
     }
     60% {
         transform: scale(.55) rotate3d(1, 1, 1, 360deg) translateY(400px) translateX(-400px); 
-        border-color: white;
+        border-color: black;;
         background: transparent;
     }
     80% {
         transform: rotate3d(1, 1, 1, 760deg) translateY(400px) translateX(-400px);
-        border-color: white;
+        border-color: black;;
         background: transparent;
     }
 
@@ -179,27 +179,27 @@ video {
 @keyframes face4 {
     0% {
         transform: scale(.25) translateY(-100px) translateX(100px);
-        border-color: white;
+        border-color: black;;
         background: transparent;
     }
     20% {
         transform: scale(.35) rotate3d(1, 1, 1, 360deg);
-        border-color: white;
+        border-color: black;;
         background: transparent;
     }
     40% {
         transform: scale(.45) translateY(-400px) translateX(400px);
-        border-color: white;
+        border-color: black;;
         background: transparent;
     }
     60% {
         transform: scale(.55) rotate3d(1, 1, 1, 360deg) translateY(-400px) translateX(400px); 
-        border-color: white;
+        border-color: black;;
         background: transparent;
     }
     80% {
         transform: rotate3d(1, 1, 1, 760deg) translateY(-400px) translateX(400px);
-        border-color: white;
+        border-color: black;;
         background: transparent;
     }
 
@@ -208,27 +208,27 @@ video {
 @keyframes face5 {
     0% {
         transform: scale(.25) translateY(200px);
-        border-color: white;
+        border-color: black;;
         background: transparent;
     }
     20% {
         transform: scale(.35) rotate3d(1, 1, 1, 360deg);
-        border-color: white;
+        border-color: black;;
         background: transparent;
     }
     40% {
         transform: scale(.45) translateY(600px);
-        border-color: white;
+        border-color: black;;
         background: transparent;
     }
     60% {
         transform: scale(.55) rotate3d(1, 1, 1, 360deg) translateY(600px); 
-        border-color: white;
+        border-color: black;;
         background: transparent;
     }
     80% {
         transform: rotate3d(1, 1, 1, 760deg) translateY(600px);
-        border-color: white;
+        border-color: black;;
         background: transparent;
     }
 
@@ -237,27 +237,27 @@ video {
 @keyframes face6 {
     0% {
         transform: scale(.25) translateY(-200px);
-        border-color: white;
+        border-color: black;;
         background: transparent;
     }    
     20% {
         transform: scale(.35) rotate3d(1, 1, 1, 360deg);
-        border-color: white;
+        border-color: black;;
         background: transparent;
     }
     40% {
         transform: scale(.45) translateY(-600px);
-        border-color: white;
+        border-color: black;;
         background: transparent;
     }
     60% {
         transform: scale(.55) rotate3d(1, 1, 1, 360deg) translateY(-600px); 
-        border-color: white;
+        border-color: black;;
         background: transparent;
     }
     80% {
         transform: rotate3d(1, 1, 1, 760deg) translateY(-600px);
-        border-color: white;
+        border-color: black;;
         background: transparent;
     }
 }
