@@ -36,11 +36,12 @@ video {
 @keyframes cubeAnimate {
     0% {
     transform: rotate3d(0, 0, 0, 0);
+    
     }
     80% {
     transform: rotate3d(1, 1, 1, 360deg);
     }
-    }
+}
 
 
 /* FACES */
@@ -52,7 +53,9 @@ video {
     transform-style: preserve-3d;
     overflow: hidden;
     border-style: solid;
-    border-color: white;
+    border-color:black;
+    background: white;
+    opacity: 50%;
 }
 
 #one {
@@ -90,36 +93,56 @@ video {
 @keyframes face1 {
     0% {
         transform: scale(.25)  translateY(50px) translateX(50px);
+        border-color: white;
+        background: transparent;
     }
     20% {
         transform: scale(.35) rotate3d(1, 1, 1, 360deg);
+        border-color: white;
+        background: transparent;
     }
     40% {
         transform: scale(.45) translateY(400px) translateX(400px);
+        border-color: white;
+        background: transparent;
     }
     60% {
         transform: scale(.55) rotate3d(1, 1, 1, 360deg) translateY(400px) translateX(400px); 
+        border-color: white;
+        background: transparent;
     }
     80% {
         transform: rotate3d(1, 1, 1, 760deg) translateY(400px) translateX(400px);
+        border-color: white;
+        background: transparent;
     }
 }
 
 @keyframes face2 {
     0% {
         transform: scale(.25) translateY(-50px) translateX(-50px);
+        border-color: white;
+        background: transparent;
     }
     20% {
         transform: scale(.35) rotate3d(1, 1, 1, 360deg);
+        border-color: white;
+        background: transparent;
     }
     40% {
         transform: scale(.45)  translateY(-400px) translateX(-400px);
+        border-color: white;
+        background: transparent;
     }
     60% {
         transform: scale(.55) rotate3d(1, 1, 1, 360deg) translateY(-400px) translateX(-400px); 
+        border-color: white;
+        background: transparent;
     }
     80% {
         transform: rotate3d(1, 1, 1, 760deg) translateY(-400px) translateX(-400px);
+        border-color: white;
+        background: transparent;
     }
 
     }
@@ -127,18 +150,28 @@ video {
 @keyframes face3 {
     0% {
         transform: scale(.25) translateY(100px) translateX(-100px);
+        border-color: white;
+        background: transparent;
     }
     20% {
         transform: scale(.35) rotate3d(1, 1, 1, 360deg);
+        border-color: white;
+        background: transparent;
     }
     40% {
         transform: scale(.45) translateY(400px) translateX(-400px);
+        border-color: white;
+        background: transparent;
     }
     60% {
         transform: scale(.55) rotate3d(1, 1, 1, 360deg) translateY(400px) translateX(-400px); 
+        border-color: white;
+        background: transparent;
     }
     80% {
         transform: rotate3d(1, 1, 1, 760deg) translateY(400px) translateX(-400px);
+        border-color: white;
+        background: transparent;
     }
 
 }   
@@ -146,18 +179,28 @@ video {
 @keyframes face4 {
     0% {
         transform: scale(.25) translateY(-100px) translateX(100px);
+        border-color: white;
+        background: transparent;
     }
     20% {
         transform: scale(.35) rotate3d(1, 1, 1, 360deg);
+        border-color: white;
+        background: transparent;
     }
     40% {
         transform: scale(.45) translateY(-400px) translateX(400px);
+        border-color: white;
+        background: transparent;
     }
     60% {
         transform: scale(.55) rotate3d(1, 1, 1, 360deg) translateY(-400px) translateX(400px); 
+        border-color: white;
+        background: transparent;
     }
     80% {
         transform: rotate3d(1, 1, 1, 760deg) translateY(-400px) translateX(400px);
+        border-color: white;
+        background: transparent;
     }
 
 }
@@ -165,18 +208,28 @@ video {
 @keyframes face5 {
     0% {
         transform: scale(.25) translateY(200px);
+        border-color: white;
+        background: transparent;
     }
     20% {
         transform: scale(.35) rotate3d(1, 1, 1, 360deg);
+        border-color: white;
+        background: transparent;
     }
     40% {
         transform: scale(.45) translateY(600px);
+        border-color: white;
+        background: transparent;
     }
     60% {
         transform: scale(.55) rotate3d(1, 1, 1, 360deg) translateY(600px); 
+        border-color: white;
+        background: transparent;
     }
     80% {
         transform: rotate3d(1, 1, 1, 760deg) translateY(600px);
+        border-color: white;
+        background: transparent;
     }
 
 }
@@ -184,18 +237,41 @@ video {
 @keyframes face6 {
     0% {
         transform: scale(.25) translateY(-200px);
+        border-color: white;
+        background: transparent;
     }    
     20% {
         transform: scale(.35) rotate3d(1, 1, 1, 360deg);
+        border-color: white;
+        background: transparent;
     }
     40% {
         transform: scale(.45) translateY(-600px);
+        border-color: white;
+        background: transparent;
     }
     60% {
         transform: scale(.55) rotate3d(1, 1, 1, 360deg) translateY(-600px); 
+        border-color: white;
+        background: transparent;
     }
     80% {
         transform: rotate3d(1, 1, 1, 760deg) translateY(-600px);
+        border-color: white;
+        background: transparent;
     }
 }
 
+/* writing */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap'); 
+
+h1 {
+    position: relative;
+    top: 25%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    letter-spacing: .75rem;
+    font-size: 1rem;
+    line-height: 2rem;
+}
